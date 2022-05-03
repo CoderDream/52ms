@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-03T13:29:29.698Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="cModX1bXYOFm66BBNSsM" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-03T13:40:29.269Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="RoAOB-9JyMXldm9Ckxuz" version="17.4.6" type="github" pages="2">
   <diagram id="PhP-BJQ2wtuO1mvePhvb" name="第 1 页">
     <mxGraphModel dx="1038" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -172,6 +172,48 @@
         </mxCell>
         <mxCell id="Cr4EuKPD1U2jUR8o6u61-44" value="不做处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Jm5oNYgQGQSgiNe3RXsB" name="第 2 页">
+    <mxGraphModel dx="1038" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gQ8tIwMM52p7DOY61jqs-1" value="短域名服务器&lt;br&gt;&lt;font color=&quot;#3333ff&quot;&gt;machineId&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gQ8tIwMM52p7DOY61jqs-2" value="短域名服务器&lt;br&gt;&lt;font color=&quot;#3333ff&quot;&gt;machineId&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gQ8tIwMM52p7DOY61jqs-3" value="短域名服务器&lt;br&gt;&lt;font color=&quot;#3333ff&quot;&gt;machineId&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gQ8tIwMM52p7DOY61jqs-5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;dashed=1;strokeColor=none;" edge="1" parent="1" source="gQ8tIwMM52p7DOY61jqs-4" target="gQ8tIwMM52p7DOY61jqs-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gQ8tIwMM52p7DOY61jqs-6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontColor=#000000;" edge="1" parent="1" source="gQ8tIwMM52p7DOY61jqs-4" target="gQ8tIwMM52p7DOY61jqs-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="270" />
+              <mxPoint x="320" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gQ8tIwMM52p7DOY61jqs-7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontColor=#000000;" edge="1" parent="1" source="gQ8tIwMM52p7DOY61jqs-4" target="gQ8tIwMM52p7DOY61jqs-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gQ8tIwMM52p7DOY61jqs-8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontColor=#000000;" edge="1" parent="1" source="gQ8tIwMM52p7DOY61jqs-4" target="gQ8tIwMM52p7DOY61jqs-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="290" />
+              <mxPoint x="320" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gQ8tIwMM52p7DOY61jqs-4" value="&lt;font color=&quot;#000000&quot;&gt;Nginx&lt;br&gt;负载均衡服务器&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#3333FF;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="250" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
