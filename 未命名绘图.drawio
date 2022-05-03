@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-03T13:12:53.030Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="HMi68_L_K6IG79BOWnyn" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-03T13:15:02.133Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="L2OHHNEqR9EM0VuP64Gg" version="17.4.6" type="github">
   <diagram id="PhP-BJQ2wtuO1mvePhvb" name="第 1 页">
     <mxGraphModel dx="1038" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -45,8 +45,13 @@
         <mxCell id="Cr4EuKPD1U2jUR8o6u61-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Cr4EuKPD1U2jUR8o6u61-12" target="Cr4EuKPD1U2jUR8o6u61-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Cr4EuKPD1U2jUR8o6u61-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Cr4EuKPD1U2jUR8o6u61-12" target="Cr4EuKPD1U2jUR8o6u61-18">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Cr4EuKPD1U2jUR8o6u61-19" value="存在" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Cr4EuKPD1U2jUR8o6u61-12" target="Cr4EuKPD1U2jUR8o6u61-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="330" />
+              <mxPoint x="510" y="330" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Cr4EuKPD1U2jUR8o6u61-12" value="布隆过滤器" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="290" width="140" height="80" as="geometry" />
@@ -59,14 +64,20 @@
         </mxCell>
         <mxCell id="Cr4EuKPD1U2jUR8o6u61-22" value="是否存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Cr4EuKPD1U2jUR8o6u61-21">
           <mxGeometry x="0.27" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="10" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Cr4EuKPD1U2jUR8o6u61-18" value="去Guava Cache&lt;br&gt;中取对象" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="300" width="120" height="60" as="geometry" />
+          <mxGeometry x="360" y="300" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cr4EuKPD1U2jUR8o6u61-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Cr4EuKPD1U2jUR8o6u61-20" target="Cr4EuKPD1U2jUR8o6u61-23">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Cr4EuKPD1U2jUR8o6u61-20" value="Guava&amp;nbsp;&lt;br&gt;Cache" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="290" width="80" height="80" as="geometry" />
+          <mxGeometry x="170" y="295" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Cr4EuKPD1U2jUR8o6u61-23" value="取出对象" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="440" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
