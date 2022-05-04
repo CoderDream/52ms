@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-04T01:29:59.141Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="K-RCIwgjIwXvOc2JOvNy" version="17.5.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-04T01:31:15.883Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="_IyTzTwtw_GT6j765tJT" version="17.5.0" type="github" pages="2">
   <diagram id="PhP-BJQ2wtuO1mvePhvb" name="第 1 页">
     <mxGraphModel dx="1038" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -115,10 +115,10 @@
         <mxCell id="Cr4EuKPD1U2jUR8o6u61-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Cr4EuKPD1U2jUR8o6u61-30" target="Cr4EuKPD1U2jUR8o6u61-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Cr4EuKPD1U2jUR8o6u61-30" value="发送Hash冲突" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="Cr4EuKPD1U2jUR8o6u61-30" value="发生&lt;br&gt;MurmurHash冲突" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="230" y="630" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Cr4EuKPD1U2jUR8o6u61-33" value="加标识符后&lt;br&gt;MurmurHash" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="Cr4EuKPD1U2jUR8o6u61-33" value="加冲突标识符前缀&lt;br&gt;（XXX_）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="390" y="630" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Cr4EuKPD1U2jUR8o6u61-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Cr4EuKPD1U2jUR8o6u61-33" target="Cr4EuKPD1U2jUR8o6u61-38" edge="1">
