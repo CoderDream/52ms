@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-04T01:09:14.414Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="Emf8rX9LGXRoFqiCrdE_" version="17.4.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-04T01:09:57.136Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="_PEMsdxfAMQOMbaSo4WM" version="17.4.6" type="github" pages="2">
   <diagram id="PhP-BJQ2wtuO1mvePhvb" name="第 1 页">
     <mxGraphModel dx="1038" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -78,7 +78,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Cr4EuKPD1U2jUR8o6u61-20" value="Guava&amp;nbsp;&lt;br&gt;Cache" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Cr4EuKPD1U2jUR8o6u61-20" value="短链接Bean" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="295" width="80" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Cr4EuKPD1U2jUR8o6u61-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Cr4EuKPD1U2jUR8o6u61-23" target="Cr4EuKPD1U2jUR8o6u61-26">
