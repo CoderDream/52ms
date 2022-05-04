@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-04T01:09:57.136Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="_PEMsdxfAMQOMbaSo4WM" version="17.4.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-04T01:12:02.307Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="zilVckou8AOinaQuHqkL" version="17.4.6" type="github" pages="2">
   <diagram id="PhP-BJQ2wtuO1mvePhvb" name="第 1 页">
     <mxGraphModel dx="1038" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,13 +8,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Cr4EuKPD1U2jUR8o6u61-1" value="长链接" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="190" width="120" height="60" as="geometry" />
+          <mxGeometry x="60" y="190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Cr4EuKPD1U2jUR8o6u61-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Cr4EuKPD1U2jUR8o6u61-3" target="Cr4EuKPD1U2jUR8o6u61-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Cr4EuKPD1U2jUR8o6u61-3" value="MurmurHash（32）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="190" width="120" height="60" as="geometry" />
+          <mxGeometry x="230" y="190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Cr4EuKPD1U2jUR8o6u61-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.003;entryY=0.637;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Cr4EuKPD1U2jUR8o6u61-4" target="Cr4EuKPD1U2jUR8o6u61-8">
           <mxGeometry relative="1" as="geometry" />
@@ -137,17 +137,34 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="jcqEOY2t5M7yC_sGDvnl-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeColor=#000000;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cr4EuKPD1U2jUR8o6u61-38" target="Cr4EuKPD1U2jUR8o6u61-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="640" y="785" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Cr4EuKPD1U2jUR8o6u61-38" value="生成短链接" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="570" y="660" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Cr4EuKPD1U2jUR8o6u61-44" value="不做处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="660" width="120" height="60" as="geometry" />
+        <mxCell id="Cr4EuKPD1U2jUR8o6u61-44" value="返回短链接&lt;br&gt;给调用方" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="740" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jcqEOY2t5M7yC_sGDvnl-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="jcqEOY2t5M7yC_sGDvnl-1" target="Cr4EuKPD1U2jUR8o6u61-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jcqEOY2t5M7yC_sGDvnl-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="jcqEOY2t5M7yC_sGDvnl-1" target="Cr4EuKPD1U2jUR8o6u61-11">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jcqEOY2t5M7yC_sGDvnl-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="jcqEOY2t5M7yC_sGDvnl-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="370" y="760" />
+              <mxPoint x="180" y="760" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="jcqEOY2t5M7yC_sGDvnl-1" value="生成短链接" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;gradientColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="310" y="525" width="120" height="60" as="geometry" />
